@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aquamarine;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap'); 
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: #222; 
+}
+.main{
+    width: 1170px;
+    margin: 100px auto;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.section-title h2{
+    text-transform: capitalize;
+    text-size: 40px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+.section-title h2:before{
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    background-color: #00875c;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50% );
+}
+.title-1{
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.title-2{
+    font-size: 30px;
+    font-family: "Great Vibes";
+}
+a{
+    color:#000;
+}
+.frame-2{
+    border: 1px solid #000;
+    padding: 1px;
+    margin: 1px;
+    background-color: #000;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+h4{
+    font-weight: lighter;
+}
+.interac {
+    max-width: 100%;   
+    height: auto;            /* Maintain the aspect ratio */
+    display: block;          /* Remove the inline block space */
+    margin: 0 auto;          /* Center the image horizontally */
+}
+.notice{
+    font-size: 12px;
+    font-style: italic;
+
+}
+.soup{
+    font-size: 20px;
+    font-style:italic;
+}
+.menus{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.space{
+    letter-spacing: 300px;
+}
+.food-size{
+    font-size: smaller;
+    color: tomato;
+}
+.food-size1{
+    word-spacing:50px;
+    padding-left: 250px;
+}
+.menu-column {
+    width: 40%;
+}
+.menu-column h4{
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom:20px;
+    position: relative;
+    padding-bottom: 10px; 
+    font-family: "Great Vibes";
+}
+
+.single-menu{
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    flex-direction: column;
+}
+.single-menu .menu-content h5{
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 500;
+    border-bottom: 1px dashed #222;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.single-menu .menu-content h5 span{
+    color: tomato;
+    float: right;
+    font-weight: 200;
+    font-style: italic;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.name{
+    font-weight:bold;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+td ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+td ul li {
+    margin-bottom: 5px;
+}
+.frame {
+    border: 1px solid #000;  /* Thin border */
+    padding: 5px;
+    margin: 5px;
+    width: 300px;
+    background-color: #000000;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10%;
+}
+
+.frame h2 {
+    font-family: "Great Vibes";
+    margin-top: 0;
+    font-size: 35px;
+}
+
+.frame ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.frame ul li {
+    margin-bottom: 0px;
+}
+
